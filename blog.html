@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Blog Mhd Arifin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js">document.querySelectorAll('.nav a, .btn').forEach(el => {
+  el.addEventListener('click', e => {
+    if (el.hash) {
+      e.preventDefault();
+      document.querySelector(el.hash).scrollIntoView({ behavior:'smooth' });
+    }
+  });
+});</script>
+
+<body>
+  <header class="nav">
+    <h1><a href="index.html">Mhd Arifin</a></h1>
+    <nav><a href="index.html">Home</a><a href="#posts">Blog</a></nav>
+  </header>
+
+  <section id="posts" class="container">
+    <article>
+      <h2>Hidupku Terhenti Di 2019</h2>
+      <p>Aku bangun setiap pagi tanpa tahu harus ke mana.</p>
+      <a href="#">Read more »</a>
+    </article>
+    <article>
+      <h2>Saat Nafsu Ingin Bernama Cinta</h2>
+      <p>Mereka pikir mencintai itu soal memiliki</p>
+      <a href="#">Read more »</a>
+    </article>
+    <!-- Tambah artikel lain -->
+  </section>
+
+  </footer>
+   <div class="container">
+      <p>&copy; 2025 Mhd. Arifin | Dibuat dengan HTML, CSS, dan secangkir kopi</p>
+      <div class="sosmed">
+        <a href="https://www.instagram.com/aripinn.69" target="_blank">
+        <i class="fab fa-instagram"></i> 
+  </a> |
+        <a href="https://www.linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin"></i> </a> |
+        <a href="https://wa.me/6281396320508" target="_blank"><i class="fab fa-whatsapp"></i> </a>
+      </div>
+  </footer>
+</body>
+</html>
+
