@@ -58,7 +58,7 @@ a:hover {
 .hero {
   text-align: center;
   padding: 5rem 2rem;
-  background: linear-gradient(135deg, #003049, #90e0ef);
+  background: linear-gradient(135deg, #003049, #003049);
   color: white;
 }
 .profile-img {
