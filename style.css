@@ -11,7 +11,7 @@ body {
   line-height: 1.7;
 }
 a {
-  color: #0077b6;
+  color: #003049;
   text-decoration: none;
 }
 a:hover {
@@ -34,7 +34,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: #0077b6;
+  background: #003049;
   color: white;
   padding: 0.5rem 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -80,7 +80,7 @@ a:hover {
 }
 .btn {
   background: white;
-  color: #0077b6;
+  color: #003049;
   padding: 0.7rem 1.5rem;
   border-radius: 5px;
   font-weight: bold;
@@ -111,12 +111,12 @@ article p {
 }
 .read-more {
   font-weight: bold;
-  color: #0077b6;
+  color: #003049;
   display: inline-block;
   margin-top: 1rem;
 }
 .read-more:hover {
-  color: #005f86;
+  color: #003049;
 }
 
 /* POSTS PREVIEW */
@@ -142,7 +142,7 @@ article p {
 
 /* CONTACT */
 .contact a {
-  color: #0077b6;
+  color: #003049;
 }
 
 /* FOOTER */
@@ -163,7 +163,7 @@ footer {
   transition: color 0.3s;
 }
 .footer-social a:hover {
-  color: #90e0ef;
+  color: #003049;
 }
 
 /* RESPONSIVE */
